@@ -1,0 +1,8 @@
+
+name: NexEssentials
+version: 0.1.0
+main: dev.nexessentials.NexEssentials
+api-version: '1.21'
+authors:
+  - Nexium Studios
+description: All-in-One Modular Minecraft Server Management Plugin
