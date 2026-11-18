@@ -1,0 +1,39 @@
+
+# NexEssentials Configuration
+
+settings:
+  language: en
+  debug: false
+
+modules:
+  economy: true
+  teleport: true
+  ranks: true
+  permissions: true
+  scoreboard: true
+  tab: true
+  shop: true
+  kits: true
+  crates: true
+
+database:
+  type: sqlite
+
+  sqlite:
+    file: nexessentials.db
+
+  mysql:
+    host: localhost
+    port: 3306
+    database: nexessentials
+    username: root
+    password: ""
+
+  postgresql:
+    host: localhost
+    port: 5432
+    database: postgres
+    username: postgres
+    password: ""
+    ssl: true
+    
